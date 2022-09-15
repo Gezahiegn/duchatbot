@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+    "tag": "load",
+   "patterns": [
+   "what is the full teaching load in the regular program"
+   
+   ],
+   "responses":[
+   "Full-time Academic Staff  ………………………………………… 12 LEHs \nUniversity approved project coordinators/equivalent………………9 LEHs \nDepartment heads/coordinators at Academic unit level/Equivalents…6 LEHs \nDeans/Directors/coordinators at university level/Equivalents………5 LEHs \nCampus Heads/Equivalents………………………………………...4 LEHs\nResearch staff ……………………………………………………..  3 LEHs\nThe Vice-Presidents may be required to teach maximum load … 3 LEHs\nPresident…..………………………………………………………..0 LEHs"
+       ]
+        },
+    {
+      "tag": "Choice_of_Program_of_Study",
+      "patterns": [
+        "can the student join there program choice",
+        "what action is concedered for female student in program choice?"
+        
+      ],
+      "responses": [
+        "Students will be admitted into the programs of their choice on a competitive basis using their grade as a measure. However, special provisions shall be made for female students and other socially disadvantaged groups that require affirmative action.",
+        "Academic Units may submit specific entrance requirements such as passes in certain subjects or additional test results and may state if, and what, kinds of physical disabilities prevent students from pursuing studies in their respective disciplines.  These requirements need to be developed by the relevant academic units and approved by the APC of the Senate. ",
+        "Regular students sponsored by governmental institutions to fill specific vacancies shall be placed in the program that offers the desired study provided that they meet the minimum entrance requirement for the program and they provide letters from the Presidents of Regional governments justifying the need for admission into the desired program.  However, such admission depends on the availability of place in the articular program. "
+      ]
+    },
+    {
+      "tag": "Minor_Disciplinary",
+      "patterns": [
+        "what are violation of disciplinary regulations for acadamic staf",
+        "what duty the acadamic staf has?"
+        
+      ],
+      "responses": [
+        "Unpunctuality to any of duties/responsibilities to be discharged in the University;",
+        "Dressing clothes below the standard of an instructor and inappropriate clothing which does not go with the profession of teaching; ",
+        "Inappropriate wordings and annoying intonation in speeches; ",
+        "Absence from classes, invigilation duties, meetings, etc., without adequate reasons and prior permissions from the immediate responsible body of the University;",
+        "Negligence of responsibilities and duties; and Failure to submit grades on time according to the centralized schedule produced and distributed by the concerned body (the office of the Registrar). "
+      ]
+    },
+    {
+     "tag": "TermOffice",
+     "patterns": [
+     
+     "tell me terms of department head"
+     ],
+     "responses": [
+     "The term of office of the head of department shall be two years.",
+     "if the they sellected by the staff again and again it will continue theire terms."
+      ]
+    },
+    { 
+    "tag": "Institution_Responsibilities",
+    "patterns" : [
+    "tell me the responsibilities of the university"
+    ],
+    "responses":[
+    "Without prejudice to other provisions of this Proclamation, the Dilla University shall:1. uphold the objectives of higher education and the guiding values of the institution, and ensure that it is an institution of scholars; 2.develop programs of study and provide higher education; prepare and supply qualified graduates in knowledge, skills, and attitudes on the basis of needs of the country; and award academic qualifications in accordance with its programs; 3. undertake and encourage relevant study, research, and community services in national and local priority areas and disseminate the findings as may be appropriate; undertake, as may be necessary, joint academic and research projects with national and foreign institutions or research centres; 4. recruit and administer its personnel and manage its finance and property in accordance with the Higher Education Proclamation and other applicable laws; 5. legislate and implement internal rules and procedures in accordance with the Higher Education Proclamation;  6. prepare and implement institutional plans ( such as staff development, & enrolment, budget and organizational structures, and submit performance reports in accordance with the Higher Education Proclamation; 7. establish cooperation relations with industries and other institutions in pursuit of its mission; 8. give recognition or award prizes or honorary degrees to persons of outstanding achievements or contributions to society; 9. provide support to primary and secondary education and provide support and cooperate with preparatory and technical and vocational schools as may be appropriate; 10. publish annual and multi-year statistics on educational input-and-output and financial incomes and expenditures as stipulated in the Higher Education Proclamation; 11. discharge other responsibilities provided for in the Higher Education Proclamation and in the  proclamation of its establishment. "
+    ]
+    },
+    
+    {
+      "tag": "Advisory_Bodies",
+      "patterns": [
+      "who adivisory the university"
+      ],
+      "responses": [
+        "The University shall be governed by Board. It has a President, Vice- Presidents and other advisory bodies such as Senate, managing council, university council, etc. as stipulated under the Higher Education Proclamation No. 650/2009 and Dilla University regulation No. 238/2011."
+        
+      ]
+    },
+     {
+      "tag": "credit",
+      "patterns": [
+        "tell me the minimum credit hours for full-time regular students"
+      ],
+      "responses": [
+        "A minimum ECTS or credit hours for full-time regular students shall be 25 or 15 per semester, respectively. The maximum load shall not be exceeding 30 ECTS or 19 credit hours unless otherwise stated in the course catalogue"
+        
+      ]
+    },
+    {
+      "tag": "credittwo",
+      "patterns": [
+        "tell me maximum laod for part time students"
+      ],
+      "responses": [
+        "The maximum load for part time students is 16 ECTS or 9 credit hours. "
+      ]
+    },
+    {
+      "tag": "creditthree",
+      "patterns": [
+        "tell me should take credit hours for readmitted students"
+      ],
+      "responses": [
+        "Readmitted students should take less than 15 credit hours in the first semester of their enrollment. "
+      ]
+    },
+     {
+      "tag": "fail_complete",
+      "patterns": [
+        "what happen the students fails to complete within the maximum length"
+      ],
+      "responses": [
+        "A student who fails to complete any studies within the maximum length of time permitted (sub-articles 1 to 4 of this Article) shall be cancelled from that program. However, the student will be certified for the modules or courses successfully finished. . "
+        
+      ]
+    }
+  ]
+}
